@@ -1,0 +1,8 @@
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\bin\Debug\NUnit.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\bin\Debug\NUnit.pdb
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\bin\Debug\Calculator1.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\bin\Debug\nunit.framework.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\bin\Debug\nunit.framework.xml
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\obj\Debug\NUnit.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\obj\Debug\NUnit.pdb
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\NUnit\obj\Debug\NUnit.csprojResolveAssemblyReference.cache

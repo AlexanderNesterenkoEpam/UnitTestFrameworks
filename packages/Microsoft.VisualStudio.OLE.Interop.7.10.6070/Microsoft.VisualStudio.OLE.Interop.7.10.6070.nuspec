@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.OLE.Interop</id>
+    <version>7.10.6070</version>
+    <title>Microsoft.VisualStudio.OLE.Interop</title>
+    <authors>Microsoft, VisualStudioExtensibility</authors>
+    <owners>Microsoft, VisualStudioExtensibility</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=614949</licenseUrl>
+    <projectUrl>http://aka.ms/vsextensibility</projectUrl>
+    <iconUrl>http://aka.ms/vsextensibilityicon</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.OLE.Interop</description>
+    <summary>Microsoft.VisualStudio.OLE.Interop</summary>
+    <releaseNotes>https://www.visualstudio.com/news/vs2015-vs</releaseNotes>
+    <copyright>Copyright © Microsoft</copyright>
+    <tags>Microsoft VisualStudio Text OLE Interop VSSDK</tags>
+  </metadata>
+</package>

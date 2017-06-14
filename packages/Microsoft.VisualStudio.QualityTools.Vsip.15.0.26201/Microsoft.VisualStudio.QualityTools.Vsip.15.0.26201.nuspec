@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.QualityTools.Vsip</id>
+    <version>15.0.26201</version>
+    <title>Microsoft.VisualStudio.QualityTools.Vsip</title>
+    <authors>Microsoft, VisualStudioExtensibility</authors>
+    <owners>Microsoft, VisualStudioExtensibility</owners>
+    <licenseUrl>https://aka.ms/pexunj</licenseUrl>
+    <projectUrl>https://aka.ms/vsextensibility</projectUrl>
+    <iconUrl>https://aka.ms/vsextensibilityicon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.QualityTools.Vsip</description>
+    <summary>Microsoft.VisualStudio.QualityTools.Vsip</summary>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=746387</releaseNotes>
+    <copyright>Copyright © Microsoft</copyright>
+    <tags>Microsoft VisualStudio QualityTools Tools Quality VSIP VSSDK</tags>
+    <dependencies>
+      <dependency id="Microsoft.VisualStudio.Shell.Interop" version="7.10.6071" />
+      <dependency id="Microsoft.VisualStudio.Shell.Framework" version="15.0.26201" />
+    </dependencies>
+  </metadata>
+</package>

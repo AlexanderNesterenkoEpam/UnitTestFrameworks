@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a45e25d7-b646-490f-bc8c-f54338b47d4c" name="Aliaksandr_Nestsiare@EPBYMINW2638 2017-06-05 20:58:02" runUser="MINSK\Aliaksandr_Nestsiare" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c3b3da32-18c7-4c19-b41d-052bfa0f81b9">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Aliaksandr_Nestsiare_EPBYMINW2638 2017-06-05 20_58_02" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-06-05T20:58:02.3141234+03:00" queuing="2017-06-05T20:58:02.6583328+03:00" start="2017-06-05T20:58:02.7094417+03:00" finish="2017-06-05T20:58:02.9747079+03:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="11" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckCos" storage="mstest.dll" id="b5fecd14-0ace-03dc-6b1b-9f4e1f1dad53">
+      <Execution id="faf5126b-7834-4673-b774-ff57bb97e4a2" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.CosTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckCos" />
+    </UnitTest>
+    <UnitTest name="CheckIsNegative" storage="mstest.dll" id="27c23d85-66dc-44f5-4e20-c4bec58155e4">
+      <Execution id="270b47d3-1aec-40b9-a534-699332dd8a33" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.IsNegativeTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIsNegative" />
+    </UnitTest>
+    <UnitTest name="CheckSub" storage="mstest.dll" id="000dcee9-5c99-a30f-c392-e629df7efef0">
+      <Execution id="f85af5a7-d135-4c5e-b3a6-702193972a8c" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.SubTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSub" />
+    </UnitTest>
+    <UnitTest name="CheckIsPositive" storage="mstest.dll" id="fc9df8ae-ae40-65d8-5f98-62a7cbfca3ed">
+      <Execution id="a569f044-c931-4e9a-abcf-5285d8446129" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.IsPositiveTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIsPositive" />
+    </UnitTest>
+    <UnitTest name="CheckPow" storage="mstest.dll" id="689b16d5-4985-2982-0996-fa4e36c3b4f2">
+      <Execution id="60083714-4a20-4f92-8dd9-f996bc38c5fd" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.PowTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckPow" />
+    </UnitTest>
+    <UnitTest name="CheckSqrt" storage="mstest.dll" id="b8319896-994f-3391-1347-860cb2715d77">
+      <Execution id="689fe079-bbda-436d-8959-c69babd773a5" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.SqrtTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSqrt" />
+    </UnitTest>
+    <UnitTest name="CheckSin" storage="mstest.dll" id="00fc19df-d805-7965-6eff-32fd4f24003f">
+      <Execution id="f4f91a26-2725-4d05-b01e-977f6afcf41a" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.SinTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSin" />
+    </UnitTest>
+    <UnitTest name="CheckAbs" storage="mstest.dll" id="9a17e9fa-b9f3-6cc0-74cb-2d8c1a8e9197">
+      <Execution id="697206d3-4a73-4ef8-904c-b363a1232c28" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.AbsTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAbs" />
+    </UnitTest>
+    <UnitTest name="CheckAdd" storage="mstest.dll" id="9218d485-26ce-481a-71ee-b74ae9d1908a">
+      <Execution id="543741b8-f0c0-421d-9054-7ba67403a98b" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.AddTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAdd" />
+    </UnitTest>
+    <UnitTest name="CheckDivide" storage="mstest.dll" id="edd754d8-5907-ba75-557b-9d3b90bce81f">
+      <Execution id="edd029e5-557b-4f6e-b811-7bcbc01b9c11" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.DivideTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckDivide" />
+    </UnitTest>
+    <UnitTest name="CheckMultiply" storage="mstest.dll" id="ebdcb995-c05f-dcdc-de47-4ef9d725de14">
+      <Execution id="53e122e4-838b-427a-9f21-70fabfca0999" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/bin/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.MultiplyTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckMultiply" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9a17e9fa-b9f3-6cc0-74cb-2d8c1a8e9197" executionId="697206d3-4a73-4ef8-904c-b363a1232c28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9218d485-26ce-481a-71ee-b74ae9d1908a" executionId="543741b8-f0c0-421d-9054-7ba67403a98b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5fecd14-0ace-03dc-6b1b-9f4e1f1dad53" executionId="faf5126b-7834-4673-b774-ff57bb97e4a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edd754d8-5907-ba75-557b-9d3b90bce81f" executionId="edd029e5-557b-4f6e-b811-7bcbc01b9c11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27c23d85-66dc-44f5-4e20-c4bec58155e4" executionId="270b47d3-1aec-40b9-a534-699332dd8a33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc9df8ae-ae40-65d8-5f98-62a7cbfca3ed" executionId="a569f044-c931-4e9a-abcf-5285d8446129" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebdcb995-c05f-dcdc-de47-4ef9d725de14" executionId="53e122e4-838b-427a-9f21-70fabfca0999" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="689b16d5-4985-2982-0996-fa4e36c3b4f2" executionId="60083714-4a20-4f92-8dd9-f996bc38c5fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00fc19df-d805-7965-6eff-32fd4f24003f" executionId="f4f91a26-2725-4d05-b01e-977f6afcf41a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8319896-994f-3391-1347-860cb2715d77" executionId="689fe079-bbda-436d-8959-c69babd773a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="000dcee9-5c99-a30f-c392-e629df7efef0" executionId="f85af5a7-d135-4c5e-b3a6-702193972a8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="697206d3-4a73-4ef8-904c-b363a1232c28" testId="9a17e9fa-b9f3-6cc0-74cb-2d8c1a8e9197" testName="CheckAbs" computerName="EPBYMINW2638" duration="00:00:00.0159657" startTime="2017-06-05T20:58:02.7315900+03:00" endTime="2017-06-05T20:58:02.9285567+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="697206d3-4a73-4ef8-904c-b363a1232c28">
+    </UnitTestResult>
+    <UnitTestResult executionId="543741b8-f0c0-421d-9054-7ba67403a98b" testId="9218d485-26ce-481a-71ee-b74ae9d1908a" testName="CheckAdd" computerName="EPBYMINW2638" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="543741b8-f0c0-421d-9054-7ba67403a98b">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckAdd defined in class MSTest.AddTests does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="faf5126b-7834-4673-b774-ff57bb97e4a2" testId="b5fecd14-0ace-03dc-6b1b-9f4e1f1dad53" testName="CheckCos" computerName="EPBYMINW2638" duration="00:00:00.0003224" startTime="2017-06-05T20:58:02.9295711+03:00" endTime="2017-06-05T20:58:02.9315668+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="faf5126b-7834-4673-b774-ff57bb97e4a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="edd029e5-557b-4f6e-b811-7bcbc01b9c11" testId="edd754d8-5907-ba75-557b-9d3b90bce81f" testName="CheckDivide" computerName="EPBYMINW2638" duration="00:00:00.0003085" startTime="2017-06-05T20:58:02.9320665+03:00" endTime="2017-06-05T20:58:02.9335706+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edd029e5-557b-4f6e-b811-7bcbc01b9c11">
+    </UnitTestResult>
+    <UnitTestResult executionId="270b47d3-1aec-40b9-a534-699332dd8a33" testId="27c23d85-66dc-44f5-4e20-c4bec58155e4" testName="CheckIsNegative" computerName="EPBYMINW2638" duration="00:00:00.0003797" startTime="2017-06-05T20:58:02.9345730+03:00" endTime="2017-06-05T20:58:02.9365798+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="270b47d3-1aec-40b9-a534-699332dd8a33">
+    </UnitTestResult>
+    <UnitTestResult executionId="a569f044-c931-4e9a-abcf-5285d8446129" testId="fc9df8ae-ae40-65d8-5f98-62a7cbfca3ed" testName="CheckIsPositive" computerName="EPBYMINW2638" duration="00:00:00.0002779" startTime="2017-06-05T20:58:02.9375870+03:00" endTime="2017-06-05T20:58:02.9385941+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a569f044-c931-4e9a-abcf-5285d8446129">
+    </UnitTestResult>
+    <UnitTestResult executionId="53e122e4-838b-427a-9f21-70fabfca0999" testId="ebdcb995-c05f-dcdc-de47-4ef9d725de14" testName="CheckMultiply" computerName="EPBYMINW2638" duration="00:00:00.0002830" startTime="2017-06-05T20:58:02.9395881+03:00" endTime="2017-06-05T20:58:02.9415934+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53e122e4-838b-427a-9f21-70fabfca0999">
+    </UnitTestResult>
+    <UnitTestResult executionId="60083714-4a20-4f92-8dd9-f996bc38c5fd" testId="689b16d5-4985-2982-0996-fa4e36c3b4f2" testName="CheckPow" computerName="EPBYMINW2638" duration="00:00:00.0003386" startTime="2017-06-05T20:58:02.9425964+03:00" endTime="2017-06-05T20:58:02.9435987+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60083714-4a20-4f92-8dd9-f996bc38c5fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4f91a26-2725-4d05-b01e-977f6afcf41a" testId="00fc19df-d805-7965-6eff-32fd4f24003f" testName="CheckSin" computerName="EPBYMINW2638" duration="00:00:00.0002887" startTime="2017-06-05T20:58:02.9446104+03:00" endTime="2017-06-05T20:58:02.9466067+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4f91a26-2725-4d05-b01e-977f6afcf41a">
+    </UnitTestResult>
+    <UnitTestResult executionId="689fe079-bbda-436d-8959-c69babd773a5" testId="b8319896-994f-3391-1347-860cb2715d77" testName="CheckSqrt" computerName="EPBYMINW2638" duration="00:00:00.0002623" startTime="2017-06-05T20:58:02.9476112+03:00" endTime="2017-06-05T20:58:02.9486400+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="689fe079-bbda-436d-8959-c69babd773a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="f85af5a7-d135-4c5e-b3a6-702193972a8c" testId="000dcee9-5c99-a30f-c392-e629df7efef0" testName="CheckSub" computerName="EPBYMINW2638" duration="00:00:00.0002932" startTime="2017-06-05T20:58:02.9496237+03:00" endTime="2017-06-05T20:58:02.9516494+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f85af5a7-d135-4c5e-b3a6-702193972a8c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

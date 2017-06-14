@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    <a>4</a>
+    <b>4</b>
+    <c>8</c>
+  </Row>
+  <Row>
+    <a>3</a>
+    <b>3</b>
+    <c>6</c>
+  </Row>
+  <Row>
+    <a>3</a>
+    <b>"4"</b>
+    <c>7</c>
+  </Row>
+  <Row>
+    <a>"string"</a>
+    <b>"5"</b>
+    <c>4</c>
+  </Row>
+</Rows>

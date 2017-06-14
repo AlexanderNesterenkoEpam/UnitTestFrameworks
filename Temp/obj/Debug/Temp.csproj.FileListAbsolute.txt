@@ -1,0 +1,5 @@
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\Temp\bin\Debug\Temp.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\Temp\bin\Debug\Temp.pdb
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\Temp\bin\Debug\Calculator1.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\Temp\obj\Debug\Temp.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\Temp\obj\Debug\Temp.pdb

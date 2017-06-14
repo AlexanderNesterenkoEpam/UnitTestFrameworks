@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="45543492-365c-4678-8bd9-6717ee4d557d" name="Aliaksandr_Nestsiare@EPBYMINW2638 2017-06-05 18:25:01" runUser="MINSK\Aliaksandr_Nestsiare" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="64d7d6c7-96ff-4298-a21b-3e13032b58d2">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Aliaksandr_Nestsiare_EPBYMINW2638 2017-06-05 18_25_01" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-06-05T18:25:01.0359391+03:00" queuing="2017-06-05T18:25:01.7272791+03:00" start="2017-06-05T18:25:01.7794186+03:00" finish="2017-06-05T18:25:02.1021586+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" error="0" failed="11" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="EPBYMINW2638" outcome="Warning" timestamp="2017-06-05T18:25:01.3472238+03:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Calculator1' directly or indirectly referenced by the test container 'C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\obj\Debug\mstest.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckCos" storage="mstest.dll" id="b5fecd14-0ace-03dc-6b1b-9f4e1f1dad53">
+      <Execution id="9d9d5063-0833-4403-8f06-85e8b4e1af03" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.CosTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckCos" />
+    </UnitTest>
+    <UnitTest name="CheckIsNegative" storage="mstest.dll" id="27c23d85-66dc-44f5-4e20-c4bec58155e4">
+      <Execution id="242648a8-6730-4e11-94fa-4672f888b078" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.IsNegativeTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIsNegative" />
+    </UnitTest>
+    <UnitTest name="CheckSub" storage="mstest.dll" id="000dcee9-5c99-a30f-c392-e629df7efef0">
+      <Execution id="f2e224b0-3735-4b62-9125-8dc3c6315432" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.SubTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSub" />
+    </UnitTest>
+    <UnitTest name="CheckIsPositive" storage="mstest.dll" id="fc9df8ae-ae40-65d8-5f98-62a7cbfca3ed">
+      <Execution id="2640c5b2-f384-4b3e-8ebf-406bb2e7c614" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.IsPositiveTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIsPositive" />
+    </UnitTest>
+    <UnitTest name="CheckPow" storage="mstest.dll" id="689b16d5-4985-2982-0996-fa4e36c3b4f2">
+      <Execution id="2e4a27af-676c-442b-a467-eeaeb3774182" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.PowTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckPow" />
+    </UnitTest>
+    <UnitTest name="CheckSqrt" storage="mstest.dll" id="b8319896-994f-3391-1347-860cb2715d77">
+      <Execution id="c30e13d5-ea0d-451d-b0a9-c08cd5b045e5" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.SqrtTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSqrt" />
+    </UnitTest>
+    <UnitTest name="CheckSin" storage="mstest.dll" id="00fc19df-d805-7965-6eff-32fd4f24003f">
+      <Execution id="ad684782-12ff-47b6-91ed-d4d3b1361fc9" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.SinTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSin" />
+    </UnitTest>
+    <UnitTest name="CheckAbs" storage="mstest.dll" id="9a17e9fa-b9f3-6cc0-74cb-2d8c1a8e9197">
+      <Execution id="f3ec1c81-2e72-4bf9-b226-da39a697e41c" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.AbsTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAbs" />
+    </UnitTest>
+    <UnitTest name="CheckAdd" storage="mstest.dll" id="9218d485-26ce-481a-71ee-b74ae9d1908a">
+      <Execution id="bd8f08cd-d29f-4213-b361-4898f75a33ca" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.AddTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAdd" />
+    </UnitTest>
+    <UnitTest name="CheckDivide" storage="mstest.dll" id="edd754d8-5907-ba75-557b-9d3b90bce81f">
+      <Execution id="d3140c58-0f2f-4da6-ac99-3d63055381f3" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.DivideTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckDivide" />
+    </UnitTest>
+    <UnitTest name="CheckMultiply" storage="mstest.dll" id="ebdcb995-c05f-dcdc-de47-4ef9d725de14">
+      <Execution id="8f5652c7-3618-44c3-bd8a-77e65e4d82d6" />
+      <TestMethod codeBase="C:/Users/Aliaksandr_Nestsiare/Documents/Visual Studio 2013/Projects/UnitFrameworks/MSTest/obj/Debug/MSTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest.MultiplyTests, MSTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckMultiply" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9a17e9fa-b9f3-6cc0-74cb-2d8c1a8e9197" executionId="f3ec1c81-2e72-4bf9-b226-da39a697e41c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9218d485-26ce-481a-71ee-b74ae9d1908a" executionId="bd8f08cd-d29f-4213-b361-4898f75a33ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5fecd14-0ace-03dc-6b1b-9f4e1f1dad53" executionId="9d9d5063-0833-4403-8f06-85e8b4e1af03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edd754d8-5907-ba75-557b-9d3b90bce81f" executionId="d3140c58-0f2f-4da6-ac99-3d63055381f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27c23d85-66dc-44f5-4e20-c4bec58155e4" executionId="242648a8-6730-4e11-94fa-4672f888b078" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc9df8ae-ae40-65d8-5f98-62a7cbfca3ed" executionId="2640c5b2-f384-4b3e-8ebf-406bb2e7c614" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebdcb995-c05f-dcdc-de47-4ef9d725de14" executionId="8f5652c7-3618-44c3-bd8a-77e65e4d82d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="689b16d5-4985-2982-0996-fa4e36c3b4f2" executionId="2e4a27af-676c-442b-a467-eeaeb3774182" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00fc19df-d805-7965-6eff-32fd4f24003f" executionId="ad684782-12ff-47b6-91ed-d4d3b1361fc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8319896-994f-3391-1347-860cb2715d77" executionId="c30e13d5-ea0d-451d-b0a9-c08cd5b045e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="000dcee9-5c99-a30f-c392-e629df7efef0" executionId="f2e224b0-3735-4b62-9125-8dc3c6315432" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f3ec1c81-2e72-4bf9-b226-da39a697e41c" testId="9a17e9fa-b9f3-6cc0-74cb-2d8c1a8e9197" testName="CheckAbs" computerName="EPBYMINW2638" duration="00:00:00.0206539" startTime="2017-06-05T18:25:01.8329673+03:00" endTime="2017-06-05T18:25:02.0439072+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3ec1c81-2e72-4bf9-b226-da39a697e41c">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.AbsTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.AbsTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd8f08cd-d29f-4213-b361-4898f75a33ca" testId="9218d485-26ce-481a-71ee-b74ae9d1908a" testName="CheckAdd" computerName="EPBYMINW2638" duration="00:00:00.0013548" startTime="2017-06-05T18:25:02.0449099+03:00" endTime="2017-06-05T18:25:02.0479179+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd8f08cd-d29f-4213-b361-4898f75a33ca">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.AddTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.AddTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d9d5063-0833-4403-8f06-85e8b4e1af03" testId="b5fecd14-0ace-03dc-6b1b-9f4e1f1dad53" testName="CheckCos" computerName="EPBYMINW2638" duration="00:00:00.0014140" startTime="2017-06-05T18:25:02.0479179+03:00" endTime="2017-06-05T18:25:02.0509262+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d9d5063-0833-4403-8f06-85e8b4e1af03">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.CosTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.CosTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3140c58-0f2f-4da6-ac99-3d63055381f3" testId="edd754d8-5907-ba75-557b-9d3b90bce81f" testName="CheckDivide" computerName="EPBYMINW2638" duration="00:00:00.0012150" startTime="2017-06-05T18:25:02.0519285+03:00" endTime="2017-06-05T18:25:02.0549377+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3140c58-0f2f-4da6-ac99-3d63055381f3">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.DivideTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.DivideTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="242648a8-6730-4e11-94fa-4672f888b078" testId="27c23d85-66dc-44f5-4e20-c4bec58155e4" testName="CheckIsNegative" computerName="EPBYMINW2638" duration="00:00:00.0015429" startTime="2017-06-05T18:25:02.0549377+03:00" endTime="2017-06-05T18:25:02.0579463+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="242648a8-6730-4e11-94fa-4672f888b078">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.IsNegativeTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.IsNegativeTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2640c5b2-f384-4b3e-8ebf-406bb2e7c614" testId="fc9df8ae-ae40-65d8-5f98-62a7cbfca3ed" testName="CheckIsPositive" computerName="EPBYMINW2638" duration="00:00:00.0011649" startTime="2017-06-05T18:25:02.0589489+03:00" endTime="2017-06-05T18:25:02.0619551+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2640c5b2-f384-4b3e-8ebf-406bb2e7c614">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.IsPositiveTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.IsPositiveTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f5652c7-3618-44c3-bd8a-77e65e4d82d6" testId="ebdcb995-c05f-dcdc-de47-4ef9d725de14" testName="CheckMultiply" computerName="EPBYMINW2638" duration="00:00:00.0013836" startTime="2017-06-05T18:25:02.0629581+03:00" endTime="2017-06-05T18:25:02.0649640+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f5652c7-3618-44c3-bd8a-77e65e4d82d6">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.MultiplyTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.MultiplyTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e4a27af-676c-442b-a467-eeaeb3774182" testId="689b16d5-4985-2982-0996-fa4e36c3b4f2" testName="CheckPow" computerName="EPBYMINW2638" duration="00:00:00.0012163" startTime="2017-06-05T18:25:02.0659658+03:00" endTime="2017-06-05T18:25:02.0689737+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e4a27af-676c-442b-a467-eeaeb3774182">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.PowTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.PowTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad684782-12ff-47b6-91ed-d4d3b1361fc9" testId="00fc19df-d805-7965-6eff-32fd4f24003f" testName="CheckSin" computerName="EPBYMINW2638" duration="00:00:00.0012382" startTime="2017-06-05T18:25:02.0689737+03:00" endTime="2017-06-05T18:25:02.0719817+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad684782-12ff-47b6-91ed-d4d3b1361fc9">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.SinTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.SinTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c30e13d5-ea0d-451d-b0a9-c08cd5b045e5" testId="b8319896-994f-3391-1347-860cb2715d77" testName="CheckSqrt" computerName="EPBYMINW2638" duration="00:00:00.0014365" startTime="2017-06-05T18:25:02.0729847+03:00" endTime="2017-06-05T18:25:02.0749897+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c30e13d5-ea0d-451d-b0a9-c08cd5b045e5">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.SqrtTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.SqrtTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2e224b0-3735-4b62-9125-8dc3c6315432" testId="000dcee9-5c99-a30f-c392-e629df7efef0" testName="CheckSub" computerName="EPBYMINW2638" duration="00:00:00.0011670" startTime="2017-06-05T18:25:02.0759942+03:00" endTime="2017-06-05T18:25:02.0790012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2e224b0-3735-4b62-9125-8dc3c6315432">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method MSTest.SubTests.TestInitialize threw exception. System.IO.FileNotFoundException: System.IO.FileNotFoundException: Could not load file or assembly 'Calculator1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at MSTest.SubTests.TestInitialize()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

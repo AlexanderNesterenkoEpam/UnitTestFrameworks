@@ -1,0 +1,10 @@
+c:\users\aliaksandr_nestsiare\documents\visual studio 2013\Projects\MSTest\MSTest\obj\Debug\MSTest.csprojResolveAssemblyReference.cache
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\bin\Debug\MSTest.dll.config
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\bin\Debug\MSTest.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\bin\Debug\MSTest.pdb
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\bin\Debug\Calculator1.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\obj\Debug\MSTest.dll
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\obj\Debug\MSTest.pdb
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\bin\Debug\Data.xlsx
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\bin\Debug\Data.xml
+C:\Users\Aliaksandr_Nestsiare\Documents\Visual Studio 2013\Projects\UnitFrameworks\MSTest\obj\Debug\MSTest.csprojResolveAssemblyReference.cache
